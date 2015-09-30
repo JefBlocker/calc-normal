@@ -42,15 +42,4 @@ return numOne + numTwo;
 // 3. Add an event listener to my button that will preform (run) the addition function
 calculateBtn.addEventListener('click', addNumbers);
 
-numOne.onfocus = function() {
-  if ( numOne.value == "enter your 1st number") {
-    numOne.value = "";
-  }
-
-  numOne.onblur = function() {
-    if ( numOne.value == "") {
-      numOne.value = "enter your 1st number";
-    }
-  }
-}
 
