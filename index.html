@@ -1,25 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Calculator - Normal</title>
+  <title>Calculator</title>
   <link rel="stylesheet" href="main.css">
-
 </head>
 <body>
 
 <div class="wrapper">
-<h3>Let's Do Some Math!</h3>
 
-<input type="text" value="enter your 1st number" name="first number" id="num_one" />
-<br /><br />
-<input type="text" value="enter your 2nd number" name="second number" id="num_two" />
-<br /><br />
-<input type="submit" value="Calculate" id="calculateBtn" />
+  <h3>Let's Do Some Math!</h3>
 
-<div class="answer">
-  <br />
-  Answer: <span id="answer"></span>
-</div>
+  <input type="text" id="num_one" name="value1"/><br>
+  <input type="text" id="num_two" name="value2"/><br>
+  <input type="button" name="Sumbit" value="Calculate" onclick="javascript:addNumbers()"/><br>
+  Answer = <input type="text" id="answer" name="answer" value="" class="answer"/>
+
 </div>
 <script src="main.js"></script>
 </body>

@@ -10,7 +10,12 @@ body {
   margin-right: auto;
   width: 200px;
   padding-left: 15px;
+  padding-bottom: 15px;
   border: 1px solid #f2b632;
+}
+
+input {
+  margin-bottom: 10px;
 }
 
 .answer {
